@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   const [length, setLength] = useState(8);
   const [numberAllowed, setNumberAllowed] = useState(false);
-  const [symbolAllowed, setSymbolAllowed] = useState(false);
+  const [symbolAllowed, setSymbolAllowed] = useState(true);
   const [password, setPassword] = useState("");
   const passwordRef = useRef(null);
 
